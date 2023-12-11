@@ -5,9 +5,9 @@ Building a stock predictor
 ## Roadmap
 
 - [x] Data Acquisition
-- [ ] Pre-processing
-- [ ] Data Streaming (Kafka)
-- [ ] Prediction Engine (Spark ML) 
+- [x] Pre-processing
+- [x] Data Streaming (Kafka)
+- [x] Prediction Engine (Spark ML) 
 - [ ] Front End (Flask Web App)
 
 ## Contributors:
