@@ -14,7 +14,6 @@ We set up a Kafka producer that fetches data from the Alpha Vantage API and publ
 
 ![Stock Price Prediction](https://github.com/khuranayashika31/Scalable-Live-Stock-Prediction-Kafka-Spark/assets/51834607/91706e63-aaf3-43fc-9919-19b0a5370ce5)
 
-
 ## Behind the scenes
 
 * ETL pipelining
@@ -22,6 +21,22 @@ We set up a Kafka producer that fetches data from the Alpha Vantage API and publ
 * Local Kafka deployment for data streaming
 * PySpark for Machine Learning
 * Tableau for exploratory data analysis
+
+## File contents
+
+* kafka_commands.txt - to run Kafka locally
+* p1.py - Kafka producer
+* c1.py - Kafka Consumer
+* SparkMLcode.ipynb - ML model (contains training on historical data & testing on new streaming data)
+
+  "Data Acquisition scripts" folder contains:
+  
+* aapl.ipynb - to fetch Alpha Vantage historical data for symbol Appl
+* meta.ipynb - to fetch Alpha Vantage historical data for symbol Meta
+* tsla.ipynb - to fetch Alpha Vantage historical data for symbol Tsla
+* msft.ipynb - to fetch Alpha Vantage historical data for symbol Msft
+* googl.ipynb - to fetch Alpha Vantage historical data for symbol Googl
+* ibm.ipynb - to fetch Alpha Vantage historical data for symbol Ibm
 
 
 ## Contributors:
