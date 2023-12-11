@@ -4,6 +4,17 @@ The primary goal of this project is to leverage Big Data technology to predict s
 
 We set up a Kafka producer that fetches data from the Alpha Vantage API and publishes it to a Kafka topic. This data is then consumed by our Spark ML application, which performs real-time a prediction.
 
+## Roadmap
+
+- [x] Data Acquisition
+- [x] Pre-processing
+- [x] Data Streaming (Kafka)
+- [x] Prediction Engine (Spark ML) 
+- [ ] Front End (Flask Web App)
+
+![Stock Price Prediction](https://github.com/khuranayashika31/Scalable-Live-Stock-Prediction-Kafka-Spark/assets/51834607/91706e63-aaf3-43fc-9919-19b0a5370ce5)
+
+
 ## Behind the scenes
 
 * ETL pipelining
@@ -12,13 +23,6 @@ We set up a Kafka producer that fetches data from the Alpha Vantage API and publ
 * PySpark for Machine Learning
 * Tableau for exploratory data analysis
 
-## Roadmap
-
-- [x] Data Acquisition
-- [x] Pre-processing
-- [x] Data Streaming (Kafka)
-- [x] Prediction Engine (Spark ML) 
-- [ ] Front End (Flask Web App)
 
 ## Contributors:
 * Yashika Khurana
